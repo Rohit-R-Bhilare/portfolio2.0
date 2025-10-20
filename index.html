@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohit Bhilare — Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Rohit Bhilare — Aspiring Software Engineer skilled in Java, React.js, and Web Development." />
+  <style>
+    :root {
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#94a3b8;
+      --accent:#6366f1;
+      --glass:rgba(255,255,255,0.05);
+      --rad:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,Arial;
+      background:linear-gradient(180deg,#071029 0%,#0b1220 100%);
+      color:#e6eef8;
+      line-height:1.6;
+      padding:32px;
+    }
+    .container{max-width:1100px;margin:0 auto}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;flex-wrap:wrap;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo img{width:60px;height:60px;border-radius:12px;object-fit:cover;border:2px solid var(--accent)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:15px}
+    nav a:hover{color:var(--accent)}
+    h2{margin-top:0}
+    .panel{background:var(--card);border-radius:var(--rad);padding:20px;margin-bottom:40px;box-shadow:0 4px 18px rgba(0,0,0,0.4)}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center;margin-bottom:50px}
+    .hero-left h1{font-size:38px;margin:0 0 12px}
+    .hero-left p{color:var(--muted)}
+    .cta{display:flex;gap:12px;margin-top:18px}
+    .btn{background:var(--accent);border:0;padding:12px 18px;border-radius:10px;color:white;font-weight:600;cursor:pointer;text-decoration:none;text-align:center}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.1)}
+    .profile{text-align:center}
+    .profile small{color:var(--muted)}
+    .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+    .card{background:var(--glass);border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.05);transition:transform .25s ease,box-shadow .25s ease}
+    .card:hover{transform:translateY(-6px);box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    .card img{width:100%;height:180px;object-fit:cover}
+    .card-body{padding:16px}
+    .card-title{margin:0 0 6px;font-weight:700}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .tag{font-size:12px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.06);color:var(--muted)}
+    footer{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:14px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.08);flex-wrap:wrap;gap:8px}
+    @media(max-width:960px){.hero{grid-template-columns:1fr}.hero-left h1{font-size:32px}}
+    @media(max-width:640px){body{padding:18px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="/image/profile.png" alt="Rohit Bhilare"></div>
+      <div>
+        <div style="font-weight:700;font-size:18px">Rohit Ramchandra Bhilare</div>
+        <small>Aspiring Webflow Developer</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+        <h1>Building responsive, dynamic, and CMS-driven Webflow projects that scale.</h1>
+        <p>As a Webflow developer, I specialize in building high-quality, data-driven websites with custom interactions, integrations, and smooth performance across all devices.</p>
+        <div class="cta">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn secondary">Hire Me</a>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="/profile.png" alt="Rohit Bhilare" style="width:160px;height:170px;border-radius:10%;object-fit:cover;border:3px solid var(--accent)">
+      <h3>Rohit Bhilare</h3>
+      <small>Webflow Developer • Pune, India</small><br>
+      <a href="mailto:rohitramchandrabhilare@gmail.com" style="color:var(--accent)">rohitramchandrabhilare@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/rohit-bhilare-8852b7240/" style="color:var(--muted)">LinkedIn</a> ·
+      <a href="https://github.com/Rohit-R-Bhilare" style="color:var(--muted)">GitHub</a> ·
+      <a href="https://leetcode.com/u/rohit-bhilare/" style="color:var(--muted)">LeetCode</a>
+    </div>
+  </section>
+
+  <section id="skills" class="panel">
+    <h2>Skills</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:10px">
+      <div class="tag">Webflow</div><div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">JavaScript</div>
+      <div class="tag">C++</div><div class="tag">React.js</div>
+      <div class="tag">REST API</div><div class="tag">MySQL</div><div class="tag">Git & GitHub</div>
+    </div>
+  </section>
+
+
+  <section id="Webflow-projects" class="panel">
+    <h2>Webflow Projects</h2>
+    <div class="projects-grid">
+      <article class="card">
+        <img src="/image/Project-1.png" alt="Algorithm Visualizer">
+        <div class="card-body">
+          <h3 class="card-title">Algorithm Visualizer</h3>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <p style="color:var(--muted)">Interactive tool to visualize algorithms (sorting, searching) with real-time updates and controls.</p>
+          <a class="btn secondary" href="https://rohit-r-bhilare.github.io/Algo-Visualizer/" target="_blank">View Demo</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="/image/Project-2.png" alt="Sensitive Info Detection">
+        <div class="card-body">
+          <h3 class="card-title">Sensitive Information Detection System</h3>
+          <div class="tags"><span class="tag">Python</span><span class="tag">OCR</span><span class="tag">NLP</span></div>
+          <p style="color:var(--muted)">(Final Year Project) Automated detection of sensitive data in PDFs using OCR and NLP preprocessing for high accuracy.</p>
+          <a class="btn secondary" href="https://github.com/Rohit-R-Bhilare/sensitive-data-monitoring/tree/main" target="_blank">View Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="/image/Project-3.png" alt="Resume ATS Tool">
+        <div class="card-body">
+          <h3 class="card-title">Resume ATS Scoring & Improvement Tool</h3>
+          <div class="tags"><span class="tag">React</span><span class="tag">Node.js</span></div>
+          <p style="color:var(--muted)">Web app analyzing resumes against job descriptions, offering ATS compatibility scores and suggestions.</p>
+          <a class="btn secondary" href="https://github.com/Rohit-R-Bhilare" target="_blank">View Repo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="panel">
+    <h2>Experience</h2>
+    <ul style="color:var(--muted)">
+      <li><strong>Web Developer Intern</strong> — Fourise Software Solutions, Pune (Jun 2024 – Dec 2024)<br>
+        • Developed responsive web pages using HTML, CSS, JS, and React.js, improving load speed by 25%.<br>
+        • Optimized backend performance with Node.js & MySQL for 1000+ users.<br>
+        • Collaborated with senior developers to reduce system errors by 40%.<br>
+        • Conducted unit and integration testing ensuring high-quality deliverables.
+      </li>
+    </ul>
+  </section>
+
+  <section id="education" class="panel">
+    <h2>Education</h2>
+    <ul style="color:var(--muted)">
+      <li><strong>B.Tech in Information Technology</strong> — G H Raisoni College of Engineering & Management, Pune (2021–2025)<br>CGPA: 7.83 / 10</li>
+      <li><strong>Class XII</strong> — Yashwantrao Chavan Institute of Science, Satara (2019–2021)<br>Percentage: 82%</li>
+    <li><strong>Class X</strong> — Kranti Vidyalay, Satara (2019–2021)<br>Percentage: 84.60%</li>
+    </ul>
+  </section>
+
+  <section id="achievements" class="panel">
+    <h2>Achievements</h2>
+    <ul style="color:var(--muted)">
+      <li>Published research paper on NLP-based Data Leak Prevention — IJSRD Vol.10 Issue 8 (Aug 2025)</li>
+      <li>Smart India Hackathon 2024 — Built retail supply chain platform for artisans.</li>
+      <li>Completed 45 Google Cloud Skill Badges.</li>
+    </ul>
+  </section>
+
+  <section id="certifications" class="panel">
+    <h2>Certifications</h2>
+    <ul style="color:var(--muted)">
+      <li>The Complete HTML5 Course — Beginner to Expert</li>
+      <li>Introduction to Web Development</li>
+      <li>C++ for Beginners</li>
+      <li>Python Programming Bootcamp for Beginners</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2>Contact</h2>
+    <p style="color:var(--muted)">Let’s collaborate on exciting software projects or full-stack web apps. Drop a message below!</p>
+    <form onsubmit="event.preventDefault();alert('Thanks Rohit — message sent (demo)')" style="display:flex;flex-direction:column;gap:12px;max-width:560px">
+      <input type="text" placeholder="Your name" required style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:inherit">
+      <input type="email" placeholder="Your email" required style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:inherit">
+      <textarea rows="4" placeholder="Your message" style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:inherit"></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>© 2025 Rohit Bhilare • Built with ❤️ and Webflow-style design</div>
+    <div>
+      <a href="https://www.linkedin.com/in/rohit-bhilare-8852b7240/" style="color:var(--muted);text-decoration:none">LinkedIn</a> · 
+      <a href="https://github.com/Rohit-R-Bhilare" style="color:var(--muted);text-decoration:none">GitHub</a> · 
+      <a href="https://leetcode.com/u/rohit-bhilare/" style="color:var(--muted);text-decoration:none">LeetCode</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
